@@ -25,4 +25,8 @@ jobs: # Jobs defined in the workflow
       with:
         name: udatest
         template: udatest.yml
-        
+        capabilities: CAPABILITY_IAM
+        no-execute-changeset: false
+        no-delete-failed-changeset: false
+        no-fail-on-empty-changeset: false
+        disable-rollback: false
