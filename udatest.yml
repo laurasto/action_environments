@@ -5,6 +5,7 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       BucketName: uda-iye-bucket
+
       WebsiteConfiguration:
         IndexDocument: index.html
         ErrorDocument: error.html
