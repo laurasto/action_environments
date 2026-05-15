@@ -5,6 +5,6 @@ on:
 
 jobs:
   test:
-    uses: laurasto/github-action-training/.github/workflows/var.yaml@main
+    uses: laurasto/github-action-training/.github/workflows/var.yml@main
     secrets:
       token: ${{ secrets.GITHUB_TOKEN}}
