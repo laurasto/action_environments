@@ -1,0 +1,10 @@
+name: CI
+
+on:
+  workflow_dispatch
+
+jobs:
+  test:
+    uses: laurasto/github-action-training/.github/workflows/var.yml@main
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN}}
