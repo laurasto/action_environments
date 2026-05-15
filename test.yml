@@ -1,0 +1,10 @@
+name: CI
+
+on:
+  workflow_dispatch
+
+jobs:
+  test:
+    uses: laurasto/repo_name/.github/workflows/var.yaml
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN}}
